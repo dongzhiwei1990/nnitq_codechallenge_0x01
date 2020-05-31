@@ -32,6 +32,7 @@ public class FileCounter2 {
         long st = System.currentTimeMillis();
         directoryTraversal(path);
         long et = System.currentTimeMillis();
+        System.out.println("微信昵称 :余笙");
         System.out.println("CPU :i7-8550U_CPU_@_1.80GHz 2.00GHz");
         System.out.println("MEM :16G");
         System.out.println("OS :win10");

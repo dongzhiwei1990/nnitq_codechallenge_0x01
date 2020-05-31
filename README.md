@@ -1,6 +1,8 @@
 # nnitq_codechallenge_0x01
 南宁 IT 圈代码挑战 0x01
 
+java 多线程；无递归文件统计
+
 运行版本1（文件夹下文件数较少时，速度较快）：
 
 ```bash
