@@ -33,7 +33,7 @@ public class FileCounter1 {
         System.out.println("CPU :i7-8550U_CPU_@_1.80GHz 2.00GHz");
         System.out.println("MEM :16G");
         System.out.println("OS :win10");
-        System.out.println("代码地址 :");
+        System.out.println("代码地址 :https://github.com/dongzhiwei1990/nnitq_codechallenge_0x01.git");
         System.out.println("程序执行时间 :"+(BigDecimal.valueOf(et-st).divide(BigDecimal.valueOf(1000)).setScale(3)));
         System.out.println("所有文件总数 :"+fileCount.get());
         System.out.println("空文件夹个数 :"+emptyDirCount.get());
