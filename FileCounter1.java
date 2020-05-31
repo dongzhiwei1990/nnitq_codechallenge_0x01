@@ -122,10 +122,13 @@ public class FileCounter1 {
                 }
             }).start();
         }
+        long st = System.currentTimeMillis();
         while (true){
-            Thread.sleep(128);
-            System.out.println("当前已遍历：总文件数="+fileCount
-                    +"；空文件夹数="+emptyDirCount
+            Thread.sleep(256);
+            System.out.println("当前已遍历（"
+                    + (BigDecimal.valueOf(System.currentTimeMillis() - st).divide(BigDecimal.valueOf(1000)).setScale(3))
+                    + "）：总文件数=" + fileCount + "；空文件夹数="
+                    + emptyDirCount
                     +"；待读取缓存队列大小="+dirMap.size()
                     +"；读取中缓存队列大小="+readingDirMap.size());
 
